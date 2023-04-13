@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Arial';
+    background-color: rgb(46, 46, 145);
+    font-size: 1em; /* 16px geralmente é 1em, OU SEJA, 32px É 2em OU VICE-VERSA /* MEDIDAS ABSOLUTAS EM FONT SIZE: cm, mm, in, px, pt, pc */ /* MEDIDAS RELATIVAS EM FONT SIZE: em, ex, rem, vw, vh, % */
+    font-weight: normal; /*WEIGHT É PESO, WIDTH É LARGURA E HEIGHT É ALTURA */
+    font-style: normal;
+} 
+
+/* SE ELE NAO ACHAR A ARIAL, VAI TENTAR A HELVETICA, SE NAO CONSEGUIR A HELVETICA, ELE VAI JOGAR UMA NAO SERIFADA (SEM BASE) AI NAO TEM ERRO, MAS FICA FEIO */
+
+h1 {
+    /* DA PRA COLOCAR TODAS ESSAS DECLARACOES DE CIMA EM UMA UNICA DECLARACAO, UMA UNICA LINHA, USANDO O SHORTHAND, TEM UMA ORDEM CORRETA PARA USAR O SHORTHAND, SEGUE ABAIXO: 
+    font-style DEPOIS font-weight DEPOIS font-size E DEPOIS font-family. VC USA O SHORTHAND COM A DECLARACAO font:  */
+    font: italic bolder 3em 'Roboto', 'sans-serif';
+    color: white;
+} /* AQUI TAMBEM A MESMA COISA */
+
+h2 {
+    font: bold 2.5em 'Roboto';
+    color: red;
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+* { /* CONFIGURACAO GLOBAL DA CSS SO USAR ASTERISTICO */
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #4F0147, #3A015C);
+    background-attachment: fixed ;
+}
